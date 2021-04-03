@@ -61,7 +61,7 @@ timer1->Interval = 1000;
  }
  else
  {
- // таймер работает, останавливаем
+ // таймер работает
  timer1->Enabled = false;
  knopka1->Text = "Старт";
  groupBox1->Enabled = true;
